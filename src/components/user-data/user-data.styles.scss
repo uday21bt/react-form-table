@@ -1,0 +1,115 @@
+.user-data-component-container {
+    margin-top: 1rem;
+    background-color: var(--white);
+    overflow-x: scroll;
+
+    .user-data-table-container {
+        max-width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+
+        .data-header {
+            border: 1px solid var(--black);
+            background-color: var(--creme-red);
+
+            th {
+                border-right: 1px solid var(--black);
+
+                &:last-of-type {
+                    border-right: none;
+                }
+            }
+        }
+
+        .user-data {
+            td {
+                color: var(--dark);
+            }
+            border-bottom: 1px solid var(--black);
+            border-left: 1px solid var(--black);
+            border-right: 1px solid var(--black);
+        }
+
+        thead, tbody {
+            tr {
+                display: flex;
+        
+                th, td {
+                    padding: 1rem 0.75rem;
+                    font-size: 0.9rem;
+                    text-align: left;
+                }
+
+                .delete {
+                    min-width: 4rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                }
+    
+                .detail {
+                    min-width: 9rem;
+                }
+    
+                .name {
+                    min-width: 15rem;
+                }
+    
+                .email {
+                    min-width: 15rem;
+                }
+    
+                .code {
+                    min-width: 7.5rem;
+                }
+    
+                .phone {
+                    min-width: 8rem;
+                }
+    
+                .food-quality {
+                    min-width: 31rem;
+                }
+    
+                .beverage-quality {
+                    min-width: 19rem;
+                }
+    
+                .cleanliness {
+                    min-width: 13rem;
+                }
+    
+                .dining {
+                    min-width: 20rem;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    display: flex;
+                    align-items: center;
+
+                    .button-container {
+                        margin-left: unset;
+                    }
+                }
+
+                .detail {
+                    justify-content: center;
+                }
+
+                .code {
+                    justify-content: center;
+
+                    img {
+                        margin: 0 auto;
+                        max-height: 1.25rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.view-data-page-container {
+    padding: 0 2rem;
+    position: relative;
+
+    .view-data-page-header {
+        margin-top: 1rem;
+        padding: 0.5rem;
+        background-color: var(--white);
+        display: flex;
+        justify-content: space-between;
+
+        .view-data-page-title {
+            font-size: 1.75rem;
+        }
+    }
+}

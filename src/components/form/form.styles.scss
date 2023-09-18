@@ -1,0 +1,10 @@
+.form-container {
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color: var(--white);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+    column-gap: 2rem;
+}

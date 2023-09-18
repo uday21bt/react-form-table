@@ -1,0 +1,32 @@
+.button-container {
+    width: fit-content;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    background-color: var(--creme-red);
+    color: var(--white);
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    margin-left: auto;
+
+    &.green {
+        background-color: var(--green);
+    }
+
+    &.lighter {
+        padding: 0.5rem 0.75rem;
+        background-color: var(--white);
+        color: var(--dark);
+        font-size: 0.9rem;
+        font-weight: 300;
+        border-radius: 0;
+        border: 1px solid var(--dark);
+
+        &:hover {
+            color: var(--red);
+            border: 1px solid var(--red);
+        }
+    }
+}
